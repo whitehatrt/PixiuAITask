@@ -32,10 +32,17 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
-### Then, run the Next development server:
+### Then, Install frontend modules:
 ```
 cd frontend
 # and
+npm i
+# or
+yarn 
+```
+### Then, run the Next development server:
+```
+
 npm run dev
 # or
 yarn dev
