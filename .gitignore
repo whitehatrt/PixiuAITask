@@ -1,0 +1,20 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/node_modules
+/.pnp
+.pnp.js
+
+#backend
+/backend/tradiology/db.sqlite3
+/backend/env
+__pycache__
+migrations
+# testing
+/coverage
+/frontend/yarn.lock
+# next.js
+/frontend/.next/
+/frontend/out/
+
+
